@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Sparklyn | Ideas into action</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+  <script src="{{ url_for('static', filename='script.js') }}" defer></script>
+</head>
+<body>
+  <header class="nav wrap"><a class="brand" href="#home">✦ Sparklyn</a><nav><a href="#about">About</a><a href="#contact">Contact</a></nav></header>
+  <main id="home">
+    <section class="hero wrap"><div class="eyebrow">IDEAS · CREATIVITY · PROGRESS</div><h1>Turn bright ideas<br><span>into action.</span></h1><p>Sparklyn is a place for fresh thinking, useful solutions, and building what comes next.</p><a class="button" href="#contact">Let’s connect <span>↗</span></a><div class="orb orb-one"></div><div class="orb orb-two"></div></section>
+    <section id="about" class="features wrap"><div><p class="eyebrow">WHAT WE BELIEVE</p><h2>Small sparks.<br>Meaningful change.</h2></div><div class="feature-grid"><article><b>01</b><h3>Think differently</h3><p>Explore new perspectives and turn challenges into opportunities.</p></article><article><b>02</b><h3>Build simply</h3><p>Focus on clear ideas and practical steps that make progress possible.</p></article><article><b>03</b><h3>Grow together</h3><p>Good things happen when curious people share ideas and collaborate.</p></article></div></section>
+    <section id="contact" class="contact wrap"><div><p class="eyebrow">GET IN TOUCH</p><h2>Have an idea?<br><span>Let’s talk.</span></h2><p>Send a message to start a conversation.</p></div><form id="contact-form"><label>Your name<input name="name" required placeholder="Enter your name"></label><label>Email address<input name="email" type="email" required placeholder="you@example.com"></label><label>Message<textarea name="message" required rows="4" placeholder="Tell us a little about your idea"></textarea></label><button class="button" type="submit">Send message ↗</button><p id="form-status" role="status"></p></form></section>
+  </main>
+  <footer class="wrap"><a class="brand" href="#home">✦ Sparklyn</a><p>Built with curiosity and care.</p><small>© <span id="year"></span> Sparklyn</small></footer>
+</body>
+</html>
